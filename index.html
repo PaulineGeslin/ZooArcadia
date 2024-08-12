@@ -12,7 +12,35 @@
 <body>
 <!--HEADER-->
     <header>
-Header
+      <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/">
+            <img src="/assets/logoroboto.png" alt="LogoZooArcadia" height="100">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav d-flex justify-content-evenly w-100 mb-2 mb-lg-O text-primary">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Les habitats</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Les animaux</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Les services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Nous contacter</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Connexion/Deconnexion</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </header>
 <!--MAIN-->
     <main id="main-page">
@@ -20,8 +48,18 @@ Header
         
     </main>
 <!--FOOTER-->
-    <footer>
-Footer
+    <footer class="footer text-primary text-center bg-light row">
+          <div class="items-footer col-12">
+            <a class="nav-link" href="#">Accueil</a>
+            <a class="nav-link" href="#">Les habitats</a>
+            <a class="nav-link" href="#">Les animaux</a>
+            <a class="nav-link" href="#">Les services</a>
+            <a class="nav-link" href="#">Connexion</a>
+            <a class="nav-link" href="#">A propos</a>
+            <a class="nav-link" href="#">Mention légales</a>
+          </div>
+        </div>
+      <h3 class="col-12">© Copyright 2024 Arcadia</h3> 
     </footer>
     <script type="module" src="/Router/router.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>

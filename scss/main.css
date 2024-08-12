@@ -11964,4 +11964,25 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
+}
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+main {
+  margin-bottom: 250px;
+}
+
+footer.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.items-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
 }/*# sourceMappingURL=main.css.map */
