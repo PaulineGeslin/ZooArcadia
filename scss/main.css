@@ -11972,6 +11972,8 @@ html {
 
 main {
   margin-bottom: 250px;
+  font: inherit;
+  color: #283618;
 }
 
 footer.footer {
@@ -11985,4 +11987,75 @@ footer.footer {
   align-items: center;
   justify-content: space-between;
   padding: 20px;
+}
+
+.main-bg .text-welcome {
+  position: relative;
+  background-image: url(/assets/main.jpg);
+  background-size: cover;
+  height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+h1, .h1 {
+  -webkit-text-stroke: 2px white;
+  font-size: 80px;
+  font-weight: 900;
+}
+
+h2, .h2 {
+  padding: 20px;
+  font-weight: bolder;
+}
+
+.presentation {
+  font-weight: bold;
+}
+
+.text-habitats {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+li {
+  padding: 10px;
+}
+
+.image-container {
+  position: relative;
+  height: 250px;
+}
+
+.image-habitats {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 375px;
+  height: 250px;
+}
+
+.text-overlay {
+  position: absolute;
+  font-size: 20px;
+  font-weight: bold;
+  top: 60px;
+  right: 195px;
+  z-index: 1;
+}
+
+.btn-overlay {
+  position: absolute;
+  top: 210px;
+  left: 275px;
+  margin: 0;
+  z-index: 1;
 }/*# sourceMappingURL=main.css.map */
